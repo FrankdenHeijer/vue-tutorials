@@ -1,4 +1,4 @@
-# emet-ui
+# Vue Tutorials
 
 > A Vue.js project
 

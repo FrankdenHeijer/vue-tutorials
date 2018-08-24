@@ -16,11 +16,10 @@ import About from './components/About'
 //define your routes
 const routes = [
 //define the root url of the application.
-{ path: '/hello', component: Hello },
+{ path: '/', component: Hello },
 //route for the about route of the web page
 { path: '/about', component: About }
 ]
-
 
 
 // Create the router instance and pass the `routes` option
