@@ -6,17 +6,25 @@ import Vue from 'vue'
 import App from './App'
 //import the vue router
 import VueRouter from 'vue-router'
+//import bootstrap-vue
+import BootstrapVue from 'bootstrap-vue'
+
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap-vue/dist/bootstrap-vue.css'
+
 //tell vue to use the router
 Vue.use(VueRouter)
 
+Vue.use(BootstrapVue);
+
 //import the hello component
-import Hello from './components/HelloWorld'
+import Hello from './components/Hello'
 //import the about component
 import About from './components/About'
 //define your routes
 const routes = [
 //define the root url of the application.
-{ path: '/', component: Hello },
+{ path: '/hello', component: Hello },
 //route for the about route of the web page
 { path: '/about', component: About }
 ]
