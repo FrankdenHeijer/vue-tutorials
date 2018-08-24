@@ -11,11 +11,17 @@ Vue.use(VueRouter)
 
 //import the hello component
 import Hello from './components/HelloWorld'
+//import the about component
+import About from './components/About'
 //define your routes
 const routes = [
 //define the root url of the application.
-{ path: '/', component: Hello }
+{ path: '/hello', component: Hello },
+//route for the about route of the web page
+{ path: '/about', component: About }
 ]
+
+
 
 // Create the router instance and pass the `routes` option
 // You can pass in additional options here, but let's
